@@ -1,0 +1,392 @@
+{
+  "player": {
+    "name": "Брух",
+    "symbol": "H",
+    "castle": {
+      "symbol": "Castle_P",
+      "x": 1,
+      "y": 1,
+      "buildings": [
+        {
+          "type": "GUARD_TOWER"
+        },
+        {
+          "type": "GUARD_TOWER"
+        }
+      ]
+    },
+    "units": [
+      {
+        "name": "MiniPeka",
+        "symbol": "W",
+        "health": 80,
+        "damage": 15,
+        "moveRange": 2,
+        "cost": 0,
+        "attackRange": 1,
+        "color": -16776961,
+        "movesLeft": 2,
+        "x": 3,
+        "y": 3,
+        "immortality": true,
+        "originalAttack": 1,
+        "originalSymbol": "p"
+      },
+      {
+        "name": "MiniPeka",
+        "symbol": "W",
+        "health": 80,
+        "damage": 15,
+        "moveRange": 2,
+        "cost": 0,
+        "attackRange": 1,
+        "color": -16776961,
+        "movesLeft": 2,
+        "x": 5,
+        "y": 3,
+        "immortality": true,
+        "originalAttack": 1,
+        "originalSymbol": "p"
+      }
+    ],
+    "gold": 100,
+    "x": 4,
+    "y": 0,
+    "health": 100,
+    "moveRange": 4,
+    "movesLeft": 4,
+    "totalDistance": 0
+  },
+  "computer": {
+    "name": "ТупаAI",
+    "symbol": "AI",
+    "castle": {
+      "symbol": "Castle_C",
+      "x": 8,
+      "y": 8,
+      "buildings": [
+        {
+          "type": "GUARD_TOWER"
+        },
+        {
+          "type": "GUARD_TOWER"
+        }
+      ]
+    },
+    "units": [
+      {
+        "name": "MiniPeka",
+        "symbol": "W",
+        "health": 80,
+        "damage": 15,
+        "moveRange": 2,
+        "cost": 0,
+        "attackRange": 1,
+        "color": -16711681,
+        "movesLeft": 0,
+        "x": 6,
+        "y": 6,
+        "immortality": true,
+        "originalAttack": 1,
+        "originalSymbol": "p"
+      },
+      {
+        "name": "MiniPeka",
+        "symbol": "W",
+        "health": 80,
+        "damage": 15,
+        "moveRange": 2,
+        "cost": 0,
+        "attackRange": 1,
+        "color": -16711681,
+        "movesLeft": 0,
+        "x": 6,
+        "y": 7,
+        "immortality": true,
+        "originalAttack": 1,
+        "originalSymbol": "p"
+      }
+    ],
+    "gold": 200,
+    "x": 7,
+    "y": 7,
+    "health": 100,
+    "moveRange": 4,
+    "movesLeft": 3,
+    "totalDistance": 1
+  },
+  "playerTurn": false,
+  "map": {
+    "size": 10,
+    "grid": [
+      [
+        "P",
+        "P",
+        "P",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "I",
+        "."
+      ],
+      [
+        "P",
+        "P_Castle",
+        "P",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "."
+      ],
+      [
+        "P",
+        "P",
+        "R",
+        ".",
+        ".",
+        "Z",
+        ".",
+        "#",
+        ".",
+        "."
+      ],
+      [
+        ".",
+        ".",
+        ".",
+        "W",
+        ".",
+        ".",
+        "#",
+        ".",
+        ".",
+        "."
+      ],
+      [
+        "H",
+        "U",
+        ".",
+        ".",
+        "R",
+        "#",
+        ".",
+        ".",
+        ".",
+        "."
+      ],
+      [
+        ".",
+        ".",
+        ".",
+        "W",
+        "#",
+        "R",
+        ".",
+        ".",
+        ".",
+        "."
+      ],
+      [
+        ".",
+        "V",
+        ".",
+        "#",
+        ".",
+        ".",
+        "W",
+        "W",
+        ".",
+        "."
+      ],
+      [
+        ".",
+        ".",
+        "#",
+        ".",
+        ".",
+        ".",
+        ".",
+        "AI",
+        "C",
+        "C"
+      ],
+      [
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "C",
+        "C_Castle",
+        "C"
+      ],
+      [
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "C",
+        "C",
+        "C"
+      ]
+    ],
+    "baseGrid": [
+      [
+        "P",
+        "P",
+        "P",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "I",
+        "."
+      ],
+      [
+        "P",
+        "P_Castle",
+        "P",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "."
+      ],
+      [
+        "P",
+        "P",
+        "R",
+        ".",
+        ".",
+        "Z",
+        ".",
+        "#",
+        ".",
+        "."
+      ],
+      [
+        ".",
+        ".",
+        ".",
+        "R",
+        ".",
+        ".",
+        "#",
+        ".",
+        ".",
+        "."
+      ],
+      [
+        ".",
+        "U",
+        ".",
+        ".",
+        "R",
+        "#",
+        ".",
+        ".",
+        ".",
+        "."
+      ],
+      [
+        ".",
+        ".",
+        ".",
+        ".",
+        "#",
+        "R",
+        ".",
+        ".",
+        ".",
+        "."
+      ],
+      [
+        ".",
+        "V",
+        ".",
+        "#",
+        ".",
+        ".",
+        "R",
+        ".",
+        ".",
+        "."
+      ],
+      [
+        ".",
+        ".",
+        "#",
+        ".",
+        ".",
+        ".",
+        ".",
+        "R",
+        "C",
+        "C"
+      ],
+      [
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "C",
+        "C_Castle",
+        "C"
+      ],
+      [
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "C",
+        "C",
+        "C"
+      ]
+    ]
+  },
+  "playerCastle": {
+    "symbol": "Castle_P",
+    "x": 1,
+    "y": 1,
+    "buildings": [
+      {
+        "type": "GUARD_TOWER"
+      },
+      {
+        "type": "GUARD_TOWER"
+      }
+    ]
+  },
+  "computerCastle": {
+    "symbol": "Castle_C",
+    "x": 8,
+    "y": 8,
+    "buildings": [
+      {
+        "type": "GUARD_TOWER"
+      },
+      {
+        "type": "GUARD_TOWER"
+      }
+    ]
+  }
+}

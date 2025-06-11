@@ -1,0 +1,6 @@
+мая 25, 2025 10:04:11 PM game.MainLauncherTest testBuildBuildingWithEnoughGold
+INFO: TestBuildingEnoughGoldSuccess
+мая 25, 2025 10:04:11 PM game.MainLauncherTest testBuildBuildingWithoutEnoughGold
+WARNING: Это лог-сообщение с уровнем WARNING внутри теста.
+мая 25, 2025 10:04:11 PM game.MainLauncherTest testHireMiniPekaWithoutBuilding
+SEVERE: Нарушение шкебеде
